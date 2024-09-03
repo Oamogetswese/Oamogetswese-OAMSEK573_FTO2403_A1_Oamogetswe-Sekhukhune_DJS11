@@ -1,0 +1,13 @@
+.show-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .show-list h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
