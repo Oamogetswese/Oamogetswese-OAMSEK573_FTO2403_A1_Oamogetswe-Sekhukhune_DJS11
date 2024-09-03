@@ -66,6 +66,10 @@ const ShowDetails: React.FC = () => {
             {season.episodes.map(episode => (
               <li key={episode.id}>
                 {episode.title} - {episode.duration} seconds
+                <audio controls>
+                  <source src={episode.mp3Url} type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
               </li>
             ))}
           </ul>
